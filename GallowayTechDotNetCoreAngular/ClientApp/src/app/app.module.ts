@@ -10,6 +10,7 @@ import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { IntroComponent } from './intro/intro.component';
+import { BioComponent } from './bio/bio.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { IntroComponent } from './intro/intro.component';
     HomeComponent,
     CounterComponent,
     FetchDataComponent,
-    IntroComponent
+    IntroComponent,
+    BioComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
